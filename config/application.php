@@ -118,13 +118,6 @@ Config::define('DISALLOW_FILE_MODS', true);
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 
 /**
- * Custom configuration by Seize
- */
-define('REST_API_ROOT', env('REST_API_ROOT'));
-define('GOOGLE_API_KEY', env('GOOGLE_API_KEY'));
-define('SENDGRID_API_KEY', env('SENDGRID_API_KEY'));
-
-/**
  * Debugging Settings
  */
 $dir_logs = dirname(__FILE__) . '/../_logs/';
